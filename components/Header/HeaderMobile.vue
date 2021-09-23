@@ -9,6 +9,7 @@
         <v-list-item
           v-for="item in headerElements"
           :key="item.name"
+          :to="item.path"
           link
         >
           <v-list-item-icon>
