@@ -7,7 +7,7 @@
       justify="center"
       no-gutters
     >
-      <v-btn class="mt-2" color="white" icon>
+      <v-btn class="mt-2" color="white" to="/" icon>
         <v-icon>mdi-home</v-icon>
       </v-btn>
       <v-btn
