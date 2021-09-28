@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header-bar">
     <v-navigation-drawer
       v-model="drawer"
       absolute
@@ -22,7 +22,7 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    <v-app-bar-nav-icon color="white" @click.stop="drawer = !drawer" />
   </div>
 </template>
 
@@ -41,3 +41,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.header-bar {
+  background-color: #2196F3;
+  height: 40px;
+}
+</style>
